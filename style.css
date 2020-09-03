@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 112px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+#helloBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -30,6 +48,17 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
+}
+
+.nav-links :hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 255, 255),
+                0 0 20px rgb(255, 255, 255),
+                0 0 40px rgb(255, 255, 255),
+                0 0 80px rgb(240, 199, 15),
+                0 0 120px rgb(240, 199, 15);
+    transition: all 0.8s ease;
+
 }
 
 .nav-links li{
