@@ -33,10 +33,39 @@ h3{
     align-items: center;
 }
 
-.toolItems{
+.toolItemsCont{
     display: flex;
-    width: 35%;
+    width: 50%;
+    height: 100px;
     justify-content: space-around;
+}
+
+.toolItemsCont{
+    width: 80%;
+}
+
+.toolItemText{
+    text-decoration: none;
+        font-family: sans-serif;
+
+}
+
+.toolItemsCont a i, .toolItemText{
+    font-size: 100px;
+    color: rgb(223, 223, 223);
+}
+
+.toolItemsCont a i:hover, .toolItemText:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(177, 177, 177),
+                0 0 20px rgb(110, 110, 110),
+                0 0 40px rgb(136, 136, 136),
+                0 0 80px rgb(240, 199, 15);
+    transition: all 0.3s ease;
+}
+
+.toolItemsCont img{
+    height: 100%;
 }
 
 #stamp{
@@ -78,7 +107,7 @@ nav{
                 0 0 40px rgb(255, 255, 255),
                 0 0 80px rgb(240, 199, 15),
                 0 0 120px rgb(240, 199, 15);
-    transition: all 0.8s ease;
+    transition: all 0.3s ease;
 
 }
 
@@ -127,6 +156,9 @@ nav{
     }
     .burger{
         display: block;
+    }
+    .toolItemsCont a i, .toolItemText{
+        font-size: 60px;
     }
 }
 
