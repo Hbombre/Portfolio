@@ -303,11 +303,6 @@ nav{
     width: 10px;
   }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-
-  }
-  
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgb(223, 223, 223);
