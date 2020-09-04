@@ -133,14 +133,14 @@ p{
 
 .toolItemsCont{
     display: flex;
-    width: 50%;
+    width: 90%;
     height: 100px;
     justify-content: space-around;
     margin: 60px;
 }
 
 .toolItemsCont{
-    width: 80%;
+    width: 98%;
 }
 
 .toolItemText{
