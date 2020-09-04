@@ -41,7 +41,11 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    min-height: 400px;
+}
+
+.appDisplay ul{
+    max-width: 80%;
 }
 
 .appDisplay ul li{
@@ -75,6 +79,8 @@ h5{
 .toolItemText{
     text-decoration: none;
         font-family: sans-serif;
+        text-align: center;
+        margin: 0px;
 
 }
 
