@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />   
     <script src="https://kit.fontawesome.com/9bf1533bfa.js" crossorigin="anonymous"></script> 
     <title>Craig Hewlett</title>
   </head>
@@ -37,9 +38,16 @@
 
     <div>
     <div id="helloBlock">
-    <h1 id="hello">Hello.</h1>
-    <h3 id="hello2">I am Craig Hewlett</h3>
-    <img id="stamp" src="FreelanceAppDeveloper2.png">
+    <h1 data-aos="fade-up" data-aos-duration="2000">Hello.</h1>
+    <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">My Name is Craig.</h3>
+    <br>
+    <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000">I make apps.</h3>
+    <br>
+    <br>
+    <br>
+    <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3000">And this site.</h3>
+    <!-- This is a comment -->
+    <!-- <img id="stamp" src="FreelanceAppDeveloper2.png"> -->
     </div>
   </div>
 
@@ -47,26 +55,80 @@
   <br>
   <br>
 
-  <div id="tools">
+  <div class="section" style="height: 600px;">
+    <h2 data-aos="fade-up" data-aos-duration="2000"data-aos-offset="200">Writing Code is my Passion</h2>
+    <br>
+    <h2 data-aos="fade-up" data-aos-duration="2000"data-aos-offset="200" data-aos-delay="1000">I Write</h2>
+    <br>
     <div>
-    <h2>I Write</h2>
-    <br>
-    <br>
+
 
     </div>
-    <div class="toolItemsCont">
-      <a href="#"><i class="fab fa-swift"></i></a>
-      <a href="#"><i class="fab fa-java"></i></a>
-      <a href="#"><i class="fab fa-js-square"></i></a>
-      <a href="#"><i class="fab fa-python"></i></a>
-      <a class = "toolItemText" href="#">C#</i></a>
-
+    <div class="toolItemsCont" data-aos="fade-up" data-aos-duration="2000"data-aos-offset="200" data-aos-delay="1000">
+      <div class="toolItem"><a href="#"><i class="fab fa-swift"></i></a><h4>Swift</h4></div>
+      <div class="toolItem"><a href="#"><i class="fab fa-java"></i></a><h4>Java</h4></div>
+      <div class="toolItem"><a href="#"><i class="fab fa-js-square"></i></a><h4>JavaScript</h4></div>
+      <div class="toolItem"><a href="#"><i class="fab fa-python"></i></a><h4>Python</h4></div>
+      <div class="toolItem"><a class = "toolItemText" href="#">C#</i></a><h4>C#</h4></div>
       </div>
 
+    <h3 data-aos="fade-up" data-aos-duration="2000"data-aos-offset="300" data-aos-delay="1000">Among Others</h3>
+
+  </div>
+
+  <div class="section">
+    <h2 data-aos="fade-up" data-aos-duration="2000"data-aos-offset="200" data-aos-delay="1000">I Made These</h2>
+
+    <div>
+      <br>
+      <br>
+        <div data-aos="fade-right" data-aos-duration="3000" data-aos-offset="300" class= "appDisplay">
+          <br>
+          <img src="OTIcon.png" class="appIcon">
+          <h3>OilTrails</h3>
+          <h5>Why is it cool?</h5>
+          <ul>
+            <li>It is a mobile app for iOS and Android used to locate remote oil a gas well locations</li>
+            <li>Grabs information from a database I created containing 2 million+ records</li>
+            <li>Saves user data to cloud for use across multiple devices</li>
+            <li>Retrieves location specific weather information from an API</li>
+            <li>Intregrates a mapping framework to provide in-app mapping and turn by turn navigation</li>
+          </ul>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="3000" data-aos-offset="300" class= "appDisplay">
+          <br>
+          <img src="listenIcon.png" class="appIcon">
+          <h3>Listen</h3>
+          <h5>Why is it cool?</h5>
+          <ul>
+            <li>A speech comprehension tool for assisting with communicating with children with learning disabilites</li>
+            <li>Uses Swift's built in voice recognition libraries</li>
+            <li>Repeats the phrase back to the child while highlighting the word and displaying matching images</li>
+            <li>User can change the speech speed and voice</li>
+            <li>User authentication allows user to access database to save picture and word combinations</li>
+          </ul>
+        </div>
+      </div>
+      <div data-aos="fade-right" data-aos-duration="3000" data-aos-offset="300" class= "appDisplay">
+        <br>
+        <img src="prcIcon.png" class="appIcon">
+        <h3>Pump Rate Calculator</h3>
+        <h5>Why is it cool?</h5>
+        <ul>
+          <li>The first app I created in 2012</li>
+          <li>A simple app that filled a niche</li>
+          <li>My turn around on a single page app like this is a couple hours</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   
 
     <script src = "app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
  </body>
 </html>

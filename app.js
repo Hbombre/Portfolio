@@ -2,6 +2,15 @@ const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
+    const toolItems = document.querySelectorAll('.toolItem')
+
+    toolItems.forEach((item) =>{
+        item.addEventListener("mouseOver", function(event){
+            event.target.inner
+            item.style.animation = `animateText 0.7 ease forwards`;
+        })
+    })
+
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
