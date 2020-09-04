@@ -5,15 +5,20 @@
 }
 
 a{
-    color: white;
+    color: rgb(0, 167, 245);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
 a:hover{
-    color: lightcoral;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(177, 177, 177),
+                0 0 20px rgb(110, 110, 110),
+                0 0 40px rgb(136, 136, 136),
+                0 0 80px rgb(240, 199, 15);
+    transition: all 0.3s ease;
 }
 
 h1, h2, h3, h4, h5{
